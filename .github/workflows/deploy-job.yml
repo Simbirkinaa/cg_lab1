@@ -1,0 +1,5 @@
+name: Deploy buy runner
+
+on:
+  push:
+    branches: ["master"]
