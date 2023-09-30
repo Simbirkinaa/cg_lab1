@@ -1,6 +1,6 @@
 name: Build and Publish
 on:
-  push:
+  commit:
     branches:
       - main
 
