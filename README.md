@@ -6,3 +6,7 @@
 https://github.com/Simbirkinaa/cg_lab1/blob/master/gif%26img/треугольник.MP4
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/Simbirkinaa/cg_lab1)
+
+![Python](https://img.shields.io/badge/Python-3.9-purple)
+
+[![Telegram](https://img.shields.io/badge/Telegram-@milayavafelka-blue?style=social&logo=telegram)](https://t.me/milayavafelka)
