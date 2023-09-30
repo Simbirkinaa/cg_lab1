@@ -18,8 +18,3 @@ jobs:
 
       - name: Install Dependencies
         run: pip install -r requirements.txt
-
-      - name: Build and Publish
-        run: |
-          python setup.py sdist bdist_wheel
-          python -m twine upload --skip-existing --verbose dist/*
