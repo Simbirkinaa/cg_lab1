@@ -1,6 +1,7 @@
-name: Build and Publish
+name: CI
+
 on:
-  commit:
+  push:
     branches:
       - main
 
