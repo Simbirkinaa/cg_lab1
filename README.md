@@ -3,7 +3,7 @@
 образцом заполнения и управлением с клавишами. Программа должна позволять перемещать треугольник с помощью клавиш управления 
 и менять образец заполнения при нажатии клавиши Enter. Выход из программы должен быть доступен по нажатию клавиши ESC.
 
-https://github.com/Simbirkinaa/cg_lab1/blob/master/gif%26img/треугольник.MP4
+![Example](https://github.com/Simbirkinaa/cg_lab1/blob/master/gif%26img/треугольник-_1_.gif)
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/Simbirkinaa/cg_lab1)
 
