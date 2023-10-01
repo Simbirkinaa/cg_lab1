@@ -1,5 +1,4 @@
 import tkinter as tk
-
 class TriangleDrawer:
     def __init__(self, canvas):
         self.canvas = canvas
@@ -62,7 +61,6 @@ root = tk.Tk()
 root.title("Управление треугольником")
 canvas = tk.Canvas(root, width=300, height=300)
 canvas.pack()
-
 triangle_drawer = TriangleDrawer(canvas)
 
 root.bind("<Right>", triangle_drawer.move_triangle)

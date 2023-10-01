@@ -26,7 +26,7 @@ class TestTriangleDrawer(unittest.TestCase):
         self.assertEqual(self.triangle_drawer.x, expected_x, "Координата x изменилась неправильно")
 
     def test_change_pattern(self):
-        # Проверка изменения образца треугольника
+        # Проверка изменения образца
         initial_pattern_index = self.triangle_drawer.pattern_index
         event = tk.Event()
         self.triangle_drawer.change_pattern(event)
