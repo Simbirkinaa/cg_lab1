@@ -13,11 +13,13 @@ class TestTriangleDrawer(unittest.TestCase):
 
     def test_initial_triangle_pattern(self):
         # Проверка, что начальный образец треугольника отображается правильно
+
         objects_on_canvas = self.canvas.find_all()
         self.assertTrue(len(objects_on_canvas) > 0, "На холсте нет объектов")
 
     def test_move_triangle(self):
         # Проверка перемещения треугольника вправо
+
         initial_x = self.triangle_drawer.x
         event = tk.Event()
         event.keysym = "Right"
