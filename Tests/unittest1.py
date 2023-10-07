@@ -33,10 +33,13 @@ class TestTriangleDrawer(unittest.TestCase):
         event = tk.Event()
         self.triangle_drawer.change_pattern(event)
         expected_pattern_index = (initial_pattern_index + 1) % len(self.triangle_drawer.triangle_patterns)
-        self.assertEqual(self.triangle_drawer.pattern_index, expected_pattern_index, "Индекс образца изменился неправильно")
+        self.assertEqual(self.triangle_drawer.pattern_index, expected_pattern_index,
+                         "Индекс образца изменился неправильно")
 
     def tearDown(self):
         self.root.destroy()
+
+
 
 if __name__ == '__main__':
     unittest.main()
