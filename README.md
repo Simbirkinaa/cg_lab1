@@ -19,7 +19,7 @@
 
 | Язык | Интерпретатор/Версия | Среда разработки | 
 | ------ | ------ | ------ |
-| Python | Python /w64 3.9 | PyCharm 2022.2.3 |
+| Python | Python /   3.9  | PyCharm 2022.2.3 |
 
 ## Установка и запуск
 1. ```git clone https://github.com/Simbirkinaa/cg_lab1.git```
